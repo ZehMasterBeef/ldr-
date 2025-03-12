@@ -12,8 +12,10 @@ function clampMulti () {
 }
 input.onButtonPressed(Button.A, function () {
     if (OnOff == 0) {
+        basic.showNumber(1)
         OnOff = 1
     } else {
+        basic.showNumber(0)
         OnOff = 0
     }
 })
